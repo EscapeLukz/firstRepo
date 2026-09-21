@@ -9,12 +9,7 @@ int counter(int value) {
 }
 
 std::string judge(int value) {
-	if (value == 67) {
-		return "Guilty";
-	}
-	else {
-		return "Not Guilty";
-	}
+	return (value == 67) ? "Guilty" : "Not Guilty";
 }
 
 
