@@ -3,10 +3,6 @@
 #include "MathHelpers.h" // For custom-made helpers use "" instead of <>
 #include "extraFunctions.h" // "" Look in your project folder then system folders, <> look in the system folders
 
-//Decalration of functions
-int funFunction(); 
-int counter(int value);
-
 int main() {
 	funFunction();
 	std::cout << squareNum(5);
