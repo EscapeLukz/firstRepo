@@ -9,14 +9,11 @@ int counter(int value) {
 }
 
 std::string judge(int value) {
-	if (value < 0) {
+	if (value == 67) {
 		return "Guilty";
 	}
-	else if (value > 0) {
-		return "Not Guilty";
-	}
 	else {
-		return "Neutral";
+		return "Not Guilty";
 	}
 }
 
@@ -28,7 +25,8 @@ int main() {
 	std::cout << "\nEnter a number to count to: \n";
 	int inputValue = 0;
 	std ::cin >>inputValue;
-	counter(inputValue);
 	std::cout << (judge(inputValue));
+
+	counter(inputValue);
 	return 0; 
 }
