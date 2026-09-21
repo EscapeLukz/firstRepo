@@ -139,7 +139,13 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="extraFunctions.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MathHelpers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="extraFunctions.h" />
+    <ClInclude Include="MathHelpers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

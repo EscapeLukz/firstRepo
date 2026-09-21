@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="firstRepoProject.vcxproj" />
+  <Project Path="firstRepoProject.vcxproj" Id="21e87e4b-afb1-49e3-b8b9-7b58bef9bedd" />
 </Solution>
