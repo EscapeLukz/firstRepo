@@ -26,7 +26,7 @@ int main() {
 	int inputValue = 0;
 	std ::cin >>inputValue;
 	std::cout << (judge(inputValue));
-
+	std::cout << " \n";
 	counter(inputValue);
 	return 0; 
 }
